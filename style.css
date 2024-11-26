@@ -29,7 +29,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* display: none; */
+    display: none;
 }
 
 
@@ -59,3 +59,89 @@ main {
     border-radius: 4px;
     margin: 10px;
 }
+
+
+/* Play Ground Page Design */
+
+.play_ground_container {
+    height: 98%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.play_ground {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.text_area {
+    margin: 10px;
+    height: 240px;
+    width: 570px;
+    border: 10px solid #2F2941;
+    border-radius: 9px;
+    background-color: #FFFFFFB3;
+}
+
+/*keyboard*/
+
+
+.keyboard {
+    margin: 10px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.keyboard div {
+    margin: 10px;
+}
+
+kbd {
+    background-color: white;
+    color: #010313;
+    padding: 3px 8px;
+    margin: 2px;
+    border-radius: 4px;
+}
+
+/*Button*/
+
+.btn{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 20px;
+}
+
+ .btn button {
+    padding: 5px 10px;
+    border-radius: 20px;
+    color: white;
+}
+
+
+
+#like_button {
+    background-color: #894189;
+    background-size: cover;
+}
+
+#like_button img {
+    width: 18px;
+}
+
+#score_button {
+    background-color: #350490;
+    background-size: cover;
+    color: white;
+}
+
+#score_button img {
+    width: 15px;
+} 
