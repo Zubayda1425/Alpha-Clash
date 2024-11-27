@@ -6,4 +6,8 @@ function scrnChanage(hide, show) {
     const showSection = document.styleSheets[0].cssRules[show].style;
     showSection.removeProperty("display");
     showSection.setProperty("display", "flex");
+
+
 }
+
+console.log(document.styleSheets[0]);
