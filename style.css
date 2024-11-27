@@ -29,7 +29,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    display: none;
+    /* display: none; */
 }
 
 
@@ -121,7 +121,7 @@ kbd {
 }
 
 .btn button {
-    padding: 5px 10px;
+    padding: 7px 10px 5px 10px;
     border-radius: 20px;
     color: white;
 }
@@ -160,7 +160,7 @@ kbd {
     background-repeat: no-repeat;
     background-position: center;
     background-size: 280px;
-    /* display: none; */
+    display: none;
 }
 
 .score_board {
@@ -176,16 +176,16 @@ kbd {
     font-weight: 700;
 }
 
-.score_board span{
+.score_board span {
     font-weight: 400;
 }
 
-.score_board button{
+.score_board button {
     padding: 8px 25px;
     border-radius: 5px;
     font-size: 16px;
 }
 
-.score_board p{
+.score_board p {
     margin: 15px;
 }
