@@ -72,4 +72,12 @@ document.addEventListener("keyup", function (event) {
     }
 });
 
+function getScore() {
+    setTextElementById('finalScore', getTextElementById('score'));
+
+    removeSelectedColor(document.getElementById('text').innerText.toLowerCase());
+    gameOver();
+    console.log(getElementById('text').innerText.toLowerCase());
+}
+
 
