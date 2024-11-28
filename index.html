@@ -27,7 +27,7 @@
                 <h1>ALPHABET CLASH</h1>
                 <p>Unleash Your Keyboard Kung Fu : Press “Enter” to Play</p>
                 <!-- [css Index ____ hide: 3, show:8] -->
-                <button onclick="scrnChanage(3, 8)">Play Now</button>
+                <button onclick="homeToPlayground(); gameLoop();">Play Now</button>
             </div>
         </section>
 
@@ -80,13 +80,11 @@
 
                 <div class="btn">
                     <!-- [css Index ____ hide: 8, show:3] -->
-                    <button id="like_button" onclick="scrnChanage(8, 3)">Like <span><img src="images/like_icon.png"
-                                alt=""> 1</span>
+                    <button id="life_button">Life <img src="images/like_icon.png" alt=""> <span id="life">5</span>
                     </button>
 
                     <!-- [css Index ____ hide: 8, show:20] -->
-                    <button id="score_button" onclick="scrnChanage(8, 23)">Score <span><img
-                                src="images/score_icon.png"></span> 1</button>
+                    <button id="score_button">Score <img src="images/score_icon.png"> <span id="score">0</span></button>
                 </div>
             </div>
 
@@ -95,10 +93,11 @@
         <!-- Score Board -->
         <section class="score_board_container">
             <div class="score_board">
-                <h1>Score <span>: 14</span></h1>
+                <h4>Game Over!</h4>
+                <h1>Score: <span id="finalScore">0</span></h1>
 
                 <!-- [css Index ____ hide: 20, show:8] -->
-                <button id="score_board_btn" onclick="scrnChanage(23, 8)">Play Now</button>
+                <button id="score_board_btn" onclick="scoreToPlayground()">Play Now</button>
                 <p>Practice will make you Pro</p>
             </div>
 

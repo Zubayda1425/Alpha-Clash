@@ -152,12 +152,12 @@ kbd {
 
 
 
-#like_button {
+#life_button {
     background-color: #894189;
     background-size: cover;
 }
 
-#like_button img {
+#life_button img {
     width: 18px;
 }
 
@@ -193,6 +193,7 @@ kbd {
     flex-direction: column;
     align-items: center;
     justify-items: center;
+    padding-top: 20px;
 }
 
 .score_board h1 {
